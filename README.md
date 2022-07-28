@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=transparent&c&color=auto&height=200&section=header&text=Todolist&fontSize=100&fontColor=808080&fontAlign=55)
+![header](https://capsule-render.vercel.app/api?type=transparent&c&color=auto&height=200&section=header&text=Todolist&fontSize=100&fontColor=808080&fontAlign=50)
 
 <div align=center>
 <h1>실행화면<h1>
