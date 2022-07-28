@@ -1,0 +1,26 @@
+.top>h1{
+  color:white;
+  margin-bottom: 40px;
+}
+
+.top{
+  background-color:#ffb707;
+  width: 1200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.top>input{
+  padding: 12px;
+  margin-right: 10px;
+  border: none;
+}
+
+.top>button{
+  font-size: 13px;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+}

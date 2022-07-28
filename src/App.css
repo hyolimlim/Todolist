@@ -1,31 +1,64 @@
 .App {
+  display: flex;
+  justify-content: center;
+}
+
+.Container{
+  max-width: 1200px;
+  min-width: 800px;
+}
+
+.Top{
+  width: 1200px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Do-List{
+  min-width: 1200px;
+  min-height: 300px;
+}
+
+.Do-List>h1{
+    text-align: center;
+    color: #ffb707;
+  }
+
+.List{
+  text-align: center;
+  width:1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Done-List{
+  min-width: 1200px;
+  min-height: 300px;
+}
+
+.Done-List>h1{
+  text-align: center;
+  color: #ffb707;
+}
+
+.Done{
+  text-align: center;
+  width:1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
